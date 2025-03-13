@@ -1,0 +1,246 @@
+/* FONT-AWESOME AND RESET*/
+@import url("/assets/css/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* IMPOSTAZIONI GENERALI */
+
+body {
+  background-image: url(/assets/img/sfondo.png);
+  background-repeat: repeat;
+  margin: 10px 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: rgb(0 106 136);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+header h2 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  margin: 14px 0;
+}
+
+header img {
+  width: 250px;
+  padding: 10px;
+}
+
+.infoHeader {
+  text-align: center;
+}
+
+.listIconText ul li {
+  color: white;
+  font-size: 22px;
+}
+
+.listIconText span {
+  color: white;
+  margin: 0 4px;
+}
+
+/* MAIN */
+
+main {
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-shadow: 0px 7px 30px -12px rgba(0, 0, 0, 0.75);
+  padding: 20px 8px;
+}
+
+.titleMain h2 {
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+
+.titleMain span {
+  font-size: 18px;
+}
+
+.titleMain p {
+  color: gray;
+  font-size: 22px;
+}
+
+.containerPost {
+  margin: 10px;
+}
+
+.descriptionPost p {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.unorderedList p {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.unorderedList ul li {
+  list-style-type: disc;
+  margin: 20px 40px;
+  line-height: 22px;
+}
+
+.unorderedList ul li span {
+  background-color: rgb(213, 213, 213);
+  border-radius: 4px;
+  padding: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.345);
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.orderList {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 200;
+  margin: 14px;
+}
+
+.orderList span {
+  color: blueviolet;
+  font-weight: 200;
+}
+
+.orderList ol {
+  margin: 22px 0;
+}
+
+.orderList ol li {
+  list-style-type: decimal;
+}
+
+.table {
+  margin: 20px 0;
+}
+
+.table p:nth-child(1) {
+  font-weight: 600;
+  text-align: center;
+  font-size: 26px;
+}
+
+.table table {
+  font-size: 22px;
+}
+
+.table table tr th {
+  background-color: rgb(0, 98, 218);
+  padding: 8px;
+}
+
+.table table tr:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.table p {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+.table iframe {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+.containerForm {
+  background-color: rgb(228, 227, 227);
+  border-radius: 4px;
+  margin: 20px;
+  padding: 10px 8px;
+}
+
+.containerForm h3 {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.containerForm h4 {
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 300;
+  text-align: center;
+  line-height: 26px;
+}
+
+.containerForm form {
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+.containerForm form input {
+  border: none;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+.containerForm form button {
+  border: none;
+  background-color: #2c2cf7;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: white;
+  margin: 0;
+}
+
+.containerCard {
+  background-color: rgb(228, 227, 227);
+  margin: 20px 0;
+  padding: 10px 6px;
+}
+
+.containerCard h3 {
+  color: rgb(0, 98, 255);
+  border-bottom: 1px solid rgb(0, 98, 255);
+  display: inline;
+}
+
+.containerCard p {
+  padding: 16px 0;
+}
+
+.containerCard p:last-child {
+  text-align: end;
+}
+
+/* FOOTER */
+
+.copy {
+  background-color: #2c2cf7;
+  margin: 10px 0;
+  padding: 16px 8px;
+  color: white;
+}
+
+.copy h6 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.copy a {
+  color: violet;
+}
